@@ -30,7 +30,7 @@ const renderButtons = (gamepadState: GamepadState): ReactNode => {
   return (
     <div>
       <h2>Buttons</h2>
-      <div className='buttons grid auto-cols-fr grid-rows-1 grid-flow-col gap-4 pb-10'>
+      <div className='buttons flex flex-wrap justify-between gap-2 xl:flex-nowrap lg:justify-start'>
         {gamepadState.buttons.map((button: GamepadButton, index) => (
           <Button button={button} index={index} buttonIcon={buttons[index]} key={`button-${index}`} />
         ))}
