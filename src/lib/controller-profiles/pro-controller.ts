@@ -1,5 +1,5 @@
-const basePath = "/switch-pro/switch_";
-const ending = "_outline.svg";
+const basePath = '/switch-pro/switch_'
+const ending = '_outline.svg'
 
 export const proController = [
   `${basePath}button_b${ending}`,
@@ -20,4 +20,4 @@ export const proController = [
   `${basePath}dpad_right${ending}`,
   `${basePath}button_home${ending}`,
   `${basePath}button_sync${ending}`,
-];
+]

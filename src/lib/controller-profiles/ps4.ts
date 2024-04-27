@@ -1,5 +1,5 @@
-const basePath = "/ps4/playstation";
-const ending = "_outline.svg";
+const basePath = '/ps4/playstation'
+const ending = '_outline.svg'
 
 export const ps4 = [
   `${basePath}_button_color_cross${ending}`,
@@ -20,4 +20,4 @@ export const ps4 = [
   `${basePath}_dpad_right${ending}`,
   `/ps4/plain-big-PS.svg`,
   `${basePath}4_touchpad${ending}`,
-];
+]
